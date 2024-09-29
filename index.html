@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Color Gradient Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  </head>
+  <body>
+  <div class="wrapper">
+        <div class="gradient-box" style="background: linear-gradient(to left top, rgb(0, 0, 0), rgb(32, 237, 195));"></div>
+        <div class="row options">
+          <div class="column direction">
+            <p><i class="bi bi-dpad"></i> Gradient Directions</p>
+            <div class="select-box">
+              <select>
+                <option value="to top">Top</option>
+                <option value="to right top">Right top</option>
+                <option value="to right">Right</option>
+                <option value="to right bottom">Right bottom</option>
+                <option value="to bottom">Bottom</option>
+                <option value="to left bottom">Left bottom</option>
+                <option value="to left">Left</option>
+                <option value="to left top" selected="">Left top</option>
+              </select>
+            </div>
+          </div>
+          <div class="column palette">
+            <p><i class="bi bi-palette"></i> Select Colors</p>
+            <div class="colors">
+              <input type="color" value="#ebfa2b">
+              <input type="color" value="#20edc3">
+            </div>
+          </div>
+        </div>
+        <textarea class="row" disabled="">background: linear-gradient(to left top, #f1ff2e, #26f2ca);</textarea>
+        <div class="row buttons">
+          <button class="refresh"><i class="bi bi-shuffle"></i> Random Gradient</button>
+          <button class="copy"><i class="bi bi-clipboard"></i> Copy Code</button>
+        </div>
+      </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
