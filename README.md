@@ -1,4 +1,3 @@
-Linear--Color-Gradient-Generator
 🚀 Creating Beautiful Gradients with a Linear Gradient Colors Generator 🎨
 
 If you've ever worked with gradients in design or development, you know how powerful they can be for creating visually appealing web interfaces.
